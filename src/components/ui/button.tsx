@@ -18,6 +18,8 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        sundanese: "bg-sundanese-gold text-foreground hover:bg-sundanese-gold/90 font-semibold shadow-md",
+        warm: "bg-sundanese-cream text-sundanese-brown hover:bg-sundanese-cream/80 border border-sundanese-brown/20",
       },
       size: {
         default: "h-10 px-4 py-2",
