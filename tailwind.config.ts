@@ -53,10 +53,11 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				sundanese: {
-					brown: 'hsl(var(--sundanese-brown))',
-					gold: 'hsl(var(--sundanese-gold))',
-					cream: 'hsl(var(--sundanese-cream))',
-					warm: 'hsl(var(--sundanese-warm))'
+					forest: 'hsl(var(--sundanese-forest))',
+					emerald: 'hsl(var(--sundanese-emerald))',
+					bamboo: 'hsl(var(--sundanese-bamboo))',
+					sage: 'hsl(var(--sundanese-sage))',
+					mint: 'hsl(var(--sundanese-mint))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

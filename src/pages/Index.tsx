@@ -12,7 +12,8 @@ const Index = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative py-24 px-4 bg-gradient-to-br from-background via-sundanese-warm to-sundanese-cream">
+      <section className="relative py-24 px-4 bg-gradient-to-br from-background via-sundanese-bamboo to-sundanese-mint overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-sundanese-emerald/10 to-transparent"></div>
         <div className="container mx-auto text-center max-w-4xl">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground">
             Forum Budaya
@@ -46,15 +47,15 @@ const Index = () => {
               <p className="text-muted-foreground">Artikel Budaya</p>
             </div>
             <div className="space-y-2">
-              <div className="w-16 h-16 bg-sundanese-gold rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="h-8 w-8 text-foreground" />
+              <div className="w-16 h-16 bg-sundanese-emerald rounded-full flex items-center justify-center mx-auto mb-4 shadow-emerald">
+                <Users className="h-8 w-8 text-primary-foreground" />
               </div>
               <h3 className="text-3xl font-bold text-foreground">1,200+</h3>
               <p className="text-muted-foreground">Anggota Komunitas</p>
             </div>
             <div className="space-y-2">
-              <div className="w-16 h-16 bg-sundanese-cream rounded-full flex items-center justify-center mx-auto mb-4">
-                <MessageCircle className="h-8 w-8 text-sundanese-brown" />
+              <div className="w-16 h-16 bg-sundanese-sage rounded-full flex items-center justify-center mx-auto mb-4 shadow-forest">
+                <MessageCircle className="h-8 w-8 text-sundanese-forest" />
               </div>
               <h3 className="text-3xl font-bold text-foreground">5,000+</h3>
               <p className="text-muted-foreground">Diskusi Aktif</p>
@@ -101,8 +102,9 @@ const Index = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 px-4 bg-gradient-to-r from-primary to-sundanese-brown">
-        <div className="container mx-auto text-center">
+      <section className="py-20 px-4 bg-gradient-to-r from-sundanese-forest to-sundanese-emerald relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-transparent via-sundanese-emerald/20 to-transparent"></div>
+        <div className="container mx-auto text-center relative z-10">
           <h2 className="text-4xl font-bold mb-4 text-primary-foreground">
             Bergabung dengan Komunitas Kami
           </h2>

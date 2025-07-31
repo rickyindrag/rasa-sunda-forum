@@ -43,7 +43,7 @@ const ArticleCard = ({
       
       <CardHeader className="pb-3">
         <div className="flex items-center justify-between mb-2">
-          <Badge variant="secondary" className="bg-sundanese-cream text-sundanese-brown">
+          <Badge variant="secondary" className="bg-sundanese-bamboo text-sundanese-forest border-sundanese-forest/20">
             {category}
           </Badge>
           <div className="flex items-center text-sm text-muted-foreground">
