@@ -8,55 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Sundanese Green Theme - inspired by West Java's lush landscapes */
-    --background: 120 20% 97%;
-    --foreground: 140 30% 15%;
+    /* Sundanese/West Java inspired color palette */
+    --background: 28 15% 97%;
+    --foreground: 25 25% 15%;
 
-    --card: 120 25% 98%;
-    --card-foreground: 140 30% 15%;
+    --card: 28 20% 99%;
+    --card-foreground: 25 25% 15%;
 
-    --popover: 120 25% 98%;
-    --popover-foreground: 140 30% 15%;
+    --popover: 28 20% 99%;
+    --popover-foreground: 25 25% 15%;
 
-    /* Primary green - deep forest green like Sundanese forests */
-    --primary: 140 60% 25%;
-    --primary-foreground: 120 20% 97%;
+    /* Warm earth primary - inspired by traditional Sundanese brown */
+    --primary: 25 45% 35%;
+    --primary-foreground: 28 15% 97%;
 
-    /* Secondary - soft bamboo green */
-    --secondary: 120 25% 90%;
-    --secondary-foreground: 140 40% 20%;
+    /* Warm secondary - lighter earth tone */
+    --secondary: 28 25% 88%;
+    --secondary-foreground: 25 35% 25%;
 
-    --muted: 120 20% 94%;
-    --muted-foreground: 140 15% 45%;
+    --muted: 28 20% 92%;
+    --muted-foreground: 25 15% 45%;
 
-    /* Accent - vibrant emerald like traditional Sundanese jade */
-    --accent: 150 70% 45%;
-    --accent-foreground: 120 20% 97%;
+    /* Golden accent - inspired by traditional Indonesian gold */
+    --accent: 45 85% 65%;
+    --accent-foreground: 25 25% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 120 15% 88%;
-    --input: 120 15% 92%;
-    --ring: 140 60% 25%;
+    --border: 28 15% 85%;
+    --input: 28 15% 90%;
+    --ring: 25 45% 35%;
 
-    /* Custom Sundanese Green theme colors */
-    --sundanese-forest: 140 60% 25%;
-    --sundanese-emerald: 150 70% 45%;
-    --sundanese-bamboo: 120 25% 90%;
-    --sundanese-sage: 135 35% 75%;
-    --sundanese-mint: 160 40% 85%;
+    /* Custom Sundanese theme colors */
+    --sundanese-brown: 25 45% 35%;
+    --sundanese-gold: 45 85% 65%;
+    --sundanese-cream: 28 25% 88%;
+    --sundanese-warm: 28 15% 97%;
     
-    /* Beautiful green gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(150 50% 35%));
-    --gradient-forest: linear-gradient(180deg, hsl(var(--background)), hsl(120 25% 94%));
-    --gradient-emerald: linear-gradient(135deg, hsl(var(--accent)), hsl(160 60% 55%));
-    --gradient-nature: linear-gradient(45deg, hsl(140 60% 25%), hsl(150 70% 45%), hsl(160 40% 85%));
+    /* Gradients for beautiful effects */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(25 35% 45%));
+    --gradient-warm: linear-gradient(180deg, hsl(var(--background)), hsl(28 20% 94%));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(45 70% 75%));
     
-    /* Shadows with green tones */
-    --shadow-forest: 0 4px 20px -2px hsl(140 30% 15% / 0.12);
-    --shadow-emerald: 0 8px 30px -8px hsl(var(--accent) / 0.25);
-    --shadow-nature: 0 10px 40px -10px hsl(140 60% 25% / 0.15);
+    /* Shadows with warm tones */
+    --shadow-warm: 0 4px 20px -2px hsl(25 25% 15% / 0.1);
+    --shadow-accent: 0 8px 30px -8px hsl(var(--accent) / 0.3);
 
     --radius: 0.5rem;
 
@@ -78,49 +75,41 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 140 40% 8%;
-    --foreground: 120 20% 95%;
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
 
-    --card: 140 35% 10%;
-    --card-foreground: 120 20% 95%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 140 35% 10%;
-    --popover-foreground: 120 20% 95%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 150 70% 45%;
-    --primary-foreground: 140 40% 8%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
 
-    --secondary: 140 25% 18%;
-    --secondary-foreground: 120 20% 95%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 140 25% 18%;
-    --muted-foreground: 135 15% 65%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 150 70% 45%;
-    --accent-foreground: 140 40% 8%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 140 25% 18%;
-    --input: 140 25% 18%;
-    --ring: 150 70% 45%;
-    
-    /* Dark theme custom colors */
-    --sundanese-forest: 140 60% 35%;
-    --sundanese-emerald: 150 70% 50%;
-    --sundanese-bamboo: 140 25% 20%;
-    --sundanese-sage: 135 35% 25%;
-    --sundanese-mint: 160 40% 30%;
-    
-    --sidebar-background: 140 35% 12%;
-    --sidebar-foreground: 120 15% 85%;
-    --sidebar-primary: 150 70% 45%;
-    --sidebar-primary-foreground: 140 40% 8%;
-    --sidebar-accent: 140 25% 20%;
-    --sidebar-accent-foreground: 120 15% 85%;
-    --sidebar-border: 140 25% 20%;
-    --sidebar-ring: 150 70% 45%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
 

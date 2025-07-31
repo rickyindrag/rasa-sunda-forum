@@ -18,9 +18,8 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        sundanese: "bg-sundanese-emerald text-primary-foreground hover:bg-sundanese-emerald/90 font-semibold shadow-lg hover:shadow-emerald transition-all duration-300",
-        warm: "bg-sundanese-bamboo text-sundanese-forest hover:bg-sundanese-sage border border-sundanese-forest/20 font-medium",
-        nature: "bg-gradient-to-r from-sundanese-forest to-sundanese-emerald text-primary-foreground hover:from-sundanese-emerald hover:to-sundanese-forest transition-all duration-500 font-semibold shadow-lg",
+        sundanese: "bg-sundanese-gold text-foreground hover:bg-sundanese-gold/90 font-semibold shadow-md",
+        warm: "bg-sundanese-cream text-sundanese-brown hover:bg-sundanese-cream/80 border border-sundanese-brown/20",
       },
       size: {
         default: "h-10 px-4 py-2",
